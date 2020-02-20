@@ -10,7 +10,7 @@ if (isset($_POST['send'])) {
 	}
 	else
 	{
-		$to = "charlesthumbi78@gmail.com";
+		$to = "mail@gmail.com";
 
 		if (mail($to,$subject, $message, $email)) {
 			
